@@ -61,4 +61,4 @@ $die .= '<p>' . sprintf(
 	__( 'https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/' )
 ) . '</p>';
 
-wp_die( $die, __( 'WordPress &rsaquo; Error' ) );
+wp_die( "This is a test page", __( 'WordPress &rsaquo; Installed' ) );
